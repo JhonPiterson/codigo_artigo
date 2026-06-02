@@ -1,0 +1,2 @@
+"""Financial distress prediction pipeline."""
+
