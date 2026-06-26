@@ -37,6 +37,16 @@ Definir o ano de corte manualmente:
 python main.py --data-path data/raw/file_show.xlsx --results-dir outputs --split-year 2019
 ```
 
+## Dashboard
+
+Instale as dependencias e rode:
+
+```bash
+streamlit run dashboard/app.py
+```
+
+O dashboard usa os arquivos em `outputs/comparisons/`, entao rode primeiro o pipeline de comparacao.
+
 ## Observacoes
 
 - A planilha e lida por padrao da aba `final`.
